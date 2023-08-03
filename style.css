@@ -1,0 +1,161 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .hero-image {
+    position: relative;
+  }
+  
+  .hero-image__img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .hero-image__content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+  }
+  
+  .hero-image__content h1 {
+    font-size: 3rem;
+  }
+  
+  .explore-button {
+    background: linear-gradient(45deg, #FFA500, #FFD700);
+    color: white;
+    font-size: 1.2rem;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .explore-button:hover {
+    background: linear-gradient(45deg, #FFD700, #FFA500);
+  }
+ 
+  .navbar {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+  }
+  
+  .navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  
+  .navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
+ 
+  .why-us {
+    margin: 40px 0;
+    text-align: center;
+  }
+  
+  .why-us h2 {
+    text-align: center;
+  }
+  
+  .cards-container {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .card {
+    text-align: center;
+    width: 30%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+  }
+  
+  .instagram {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+.instagram h2 {
+    margin-left: 360px;
+}
+
+.explore-button {
+    margin-left: auto;
+}
+  .instagram a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .instagram a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Styling the Our Team Section */
+  .our-team {
+    margin: 40px 0;
+    text-align: center;
+  }
+  
+  .our-team h2 {
+    text-align: center;
+  }
+  
+  .team-members {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+ 
+.team-member {
+    text-align: center;
+    width: 20%;
+    margin: 10px;
+  }
+  
+  .team-member__img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; 
+    overflow: hidden;
+    border: 3px solid white; 
+  }
+  
+ 
+  .team-member__img:hover {
+    border: 3px solid #FFA500; 
+  }
+  
+
+  .team-member__img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  
